@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvestGenius - Bot de IA para Trading de Opções Cripto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>🚀 InvestGenius</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Início</a>
+                <a href="#features">Recursos</a>
+                <a href="#tokenomics">IGT Token</a>
+                <a href="#waitlist">Waitlist</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>🤖 Bot de IA para Trading de Opções Cripto</h1>
+                <p>Sistema progressivo inteligente que maximiza seus lucros com performance fee de apenas 20%</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary" onclick="joinWaitlist()">Entrar na Waitlist</button>
+                    <button class="btn-secondary" onclick="scrollToSection('features')">Saiba Mais</button>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>85%</h3>
+                        <p>Taxa de Sucesso</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Trading Automático</p>
+                    </div>
+                    <div class="stat">
+                        <h3>20%</h3>
+                        <p>Performance Fee</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>🎯 Por que InvestGenius?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>IA Avançada</h3>
+                    <p>Algoritmos de machine learning analisam milhares de padrões em tempo real</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Sistema Progressivo</h3>
+                    <p>Estratégia inteligente que se adapta às condições do mercado</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Segurança Total</h3>
+                    <p>Seus fundos ficam na sua exchange, apenas sinais de trading</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💎</div>
+                    <h3>IGT Token</h3>
+                    <p>Holders do token IGT recebem benefícios exclusivos e menores taxas</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tokenomics" class="tokenomics">
+            <h2>💎 IGT Token</h2>
+            <div class="token-info">
+                <div class="token-stats">
+                    <div class="token-stat">
+                        <h3>21M</h3>
+                        <p>Supply Total</p>
+                    </div>
+                    <div class="token-stat">
+                        <h3>20%</h3>
+                        <p>Performance Fee Padrão</p>
+                    </div>
+                    <div class="token-stat">
+                        <h3>10%</h3>
+                        <p>Fee para Holders IGT</p>
+                    </div>
+                </div>
+                <div class="token-benefits">
+                    <h3>🎁 Benefícios para Holders:</h3>
+                    <ul>
+                        <li>✅ Taxa reduzida de 20% para 10%</li>
+                        <li>✅ Acesso prioritário a novos recursos</li>
+                        <li>✅ Participação em decisões da comunidade</li>
+                        <li>✅ Recompensas em staking</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="waitlist" class="waitlist">
+            <h2>🚀 Entre na Waitlist</h2>
+            <p>Seja um dos primeiros a testar o InvestGenius e receba acesso exclusivo ao beta</p>
+            <form class="waitlist-form" onsubmit="submitWaitlist(event)">
+                <input type="email" placeholder="Seu melhor email" required>
+                <input type="text" placeholder="Seu nome" required>
+                <button type="submit" class="btn-primary">Entrar na Waitlist</button>
+            </form>
+            <div class="waitlist-count">
+                <p>🔥 <span id="waitlist-counter">847</span> pessoas já se inscreveram!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>InvestGenius</h3>
+                <p>O futuro do trading automatizado</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: erbesse.hub@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <p>© 2025 InvestGenius. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
